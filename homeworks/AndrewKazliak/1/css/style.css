@@ -1,5 +1,5 @@
 body {
-    background: url(/img/background.jpg);
+    background: url(/homeworks/AndrewKazliak/1/img/background.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -41,7 +41,7 @@ body {
     border-radius: 50%;
 }
 .portfolio__header {
-    background: url(/img/paper.jpg);
+    background: url(/homeworks/AndrewKazliak/1/img/paper.jpg);
     border-radius: 8px 8px 0px 0px ;
     height: 120px;
     width: 420px;
