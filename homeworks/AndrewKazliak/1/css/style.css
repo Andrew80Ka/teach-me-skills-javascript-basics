@@ -1,5 +1,110 @@
 body {
-  background: url(/homeworks/AndrewKazliak/1/img/background.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
+    background: url(/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.personal-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+.portfolio-card {
+    background: #d3fcbe;
+    border: 1px solid #797575;
+    height: 460px;
+    width: 420px;
+    border-radius: 8px;
+    box-shadow: 0 0 40px rgba(33, 217, 18, 0.4);
+}
+.personality {
+    border: 2px solid #fefffe;
+    width: 120px;
+    height: 120px;
+    position: fixed;
+    display: block;
+    border: none;
+    margin: 50px;
+    overflow: hidden;
+    z-index: 2;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.personality:hover {
+    box-shadow: 0 0 20px #269337;
+    width: 240px;
+    height: 240px;
+}
+.personality-img{
+    border-radius: 50%;
+}
+.portfolio__header {
+    background: url(/img/paper.jpg);
+    border-radius: 8px 8px 0px 0px ;
+    height: 120px;
+    width: 420px;
+    box-shadow: 0 5 20px #501212;
+}
+.portfolio__main {
+    border-radius: 0px 0px 8px 8px ;
+    height: 340px;
+    width: 420px;
+    overflow: auto;
+}
+.portfolio__info{
+    background: #e8e8cb;
+    width: 270px;
+    height: 340px;
+    margin: auto;
+    float: right;
+}
+.portfolio__statistics {
+    background: #fff;
+    width: 150px;
+    height: 340px;
+    float: left;
+}
+.portfolio__followers{
+    background: #fff;
+    width: 100px; 
+    padding: 90px 0px 0px 50px; 
+}
+.portfolio__following {
+    background: #fff;
+    width: 100px;
+    padding: 40px 0px 0px 50px;
+}
+
+.portfolio__about{
+    font-size: 18px;
+    margin-bottom: 16px;
+    padding: 20px 0px 0px 40px;
+}
+.qty {
+    color: #5d5a5a;
+    font-size: 28px; 
+}
+.topic-text {
+    color: #808080;
+    font-size: 22px; 
+    border-bottom: 20px;
+}
+.topic-text:hover {
+    color: #808080;
+    font-size: 40px; 
+}
+.portfolio__item{
+    padding-bottom: 4px;
+    margin: 10px 20px 0px 20px;
+    font-size: 18px;
+    border-bottom: 1px solid grey;
+}
+.text {
+  margin-left: 10px;
+  border: none;
+}
+.text:hover {
+    color: #269337;
 }
